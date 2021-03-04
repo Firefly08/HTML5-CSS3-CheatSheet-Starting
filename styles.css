@@ -42,3 +42,10 @@ a:hover, a:active {
     color: rgb(255, 0, 0);
     border: 1px solid black;
 }
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    a {
+        font-size: 0.5rem;
+    }
