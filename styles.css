@@ -1,0 +1,44 @@
+header, nav {
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    max-width: 960px;
+    margin: auto;
+}
+h1 {
+    font-size: 3rem;
+}
+header {
+    height: auto;
+}
+header img {
+    float: left;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      padding: 6px 10px;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.5rem;
+}
+a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border: 1px solid black;
+}
