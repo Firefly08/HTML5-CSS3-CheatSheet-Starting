@@ -65,6 +65,7 @@ a:hover, a:active {
     th, td {
         text-align: left;
         padding: 8px;
+        font-size: 0.2rem;
     }
     tr:nth-child(even) {
         background-color: #f2f2f2
@@ -78,6 +79,22 @@ a:hover, a:active {
         border: 1px solid black;
     }
     tr:hover {
-        background-color: #ddd;
+        background-color: rgb(255, 167, 167);
         cursor: pointer;
+        font-weight: bold;
+    }
+    #colums {
+          column-count: 2;
+          column-gap: 40px;
+          column-rule: 1px solid lightblue;
+          display: block;
+    }
+    #colums td {
+        font-size: 1.2rem;
+    }
+    #noColums td {
+        font-size: 1.2rem;
+    }
+    .tag {
+        font-family:'Courier New', Courier, monospace;
     }
