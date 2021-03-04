@@ -22,14 +22,15 @@ header img {
     float: left;
 }
 footer {
-    position: fixed;
+    position:fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: rgb(255, 109, 109);
     color: white;
     text-align: center;
-    font-size: smaller;
+    font-size: small;
+    padding: 3px;
 }
 a:link, a:visited {
       background-color: #f44336;
@@ -49,12 +50,15 @@ a:hover, a:active {
 }
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 1.5rem im !important;
+        font-size: 1.2rem im !important;
     }
     a {
         font-size: 1rem !important;
         margin: 0 5px !important;
         padding: 3px 5px;
+    }
+    table th, table td {
+        font-size: 0.5rem;
     }
 }
     table {
