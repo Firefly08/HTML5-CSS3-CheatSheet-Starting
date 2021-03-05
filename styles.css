@@ -32,7 +32,8 @@ footer {
     font-size: small;
     padding: 3px;
 }
-a:link, a:visited {
+a#mHome:link,
+a#mHome:visited {
       background-color: #f44336;
       color: white;
       text-align: center;
@@ -43,95 +44,141 @@ a:link, a:visited {
       font-weight: bold;
       font-size: 1.5rem;
 }
-a:hover, a:active {
+a#mHome:hover, a#mHome:active {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 0, 0);
     border: 1px solid black;
 }
 a#mH5:link,a#mH5:visited {
     background-color: #F16529 !important;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 a#mH5:hover, a#mH5:active {
     background-color: #fff !important;
     color: #F16529 !important;
+    border: 1px solid black;
 }
 a#mC3:link, a#mC3:visited {
     background-color: #0070BA !important;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 a#mC3:hover, a#mC3:active {
     background-color: #fff !important;
     color: #0070BA !important;
+    border: 1px solid black;
 }
 a#mJS:link, a#mJS:visited {
     background-color: #63A814 !important;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 a#mJS:hover, a#mJS:active {
     background-color: #fff !important;
     color: #63A814 !important;
+    border: 1px solid black;
 }
+
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 1.2rem im !important;
+        font-size: 1rem im !important;
     }
     a {
-        font-size: 1rem !important;
-        margin: 0 5px !important;
-        padding: 3px 5px;
+        font-size: 0.7rem !important;
+        margin: 0 2px !important;
+        padding: 1px 3px;
     }
     table th, table td {
         font-size: 0.5rem;
     }
 }
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        border: 1px solid black;
-    }
-    th, td {
-        text-align: left;
-        padding: 8px;
-        font-size: 0.2rem;
-    }
-    tr:nth-child(even) {
-        background-color: #f2f2f2
-    }
-    .thH {
-        background-color: #F16529;
-        color: white;
-    }
-    .thC {
-        background-color: #0070BA;
-        color: white;
-    }
-    
-    th, tr, td {
-        font-size: 1.5rem;
-        border: 1px solid black;
-    }
-    .trH:hover {
-        background-color: #f1c1ad;
-        cursor: pointer;
-        font-weight: bold;
-    }
-    .trC:hover {
-        background-color: #8ec0e2;
-        cursor: pointer;
-        font-weight: bold;
-    }
-    #colums {
-          column-count: 2;
-          column-gap: 40px;
-          column-rule: 1px solid lightblue;
-          display: block;
-    }
-    #colums td {
-        font-size: 1.2rem;
-    }
-    #noColums td {
-        font-size: 1.2rem;
-    }
-    .tag {
-        font-family:'Courier New', Courier, monospace;
-    }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    font-size: 0.2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.thH {
+    background-color: #F16529;
+    color: white;
+}
+
+.thC {
+    background-color: #0070BA;
+    color: white;
+}
+
+th,
+tr,
+td {
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+
+.trH:hover {
+    background-color: #f1c1ad;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.trC:hover {
+    background-color: #8ec0e2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#colums {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    display: block;
+}
+
+#colums td {
+    font-size: 1.2rem;
+}
+
+#noColums td {
+    font-size: 1.2rem;
+}
+
+.tag {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe {
+    max-width: 100%;
+}
